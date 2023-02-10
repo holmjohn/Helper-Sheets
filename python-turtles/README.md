@@ -39,10 +39,10 @@ Here are common commands for moving a turtle around a screen. While the examples
 
 Command | Value/Parameter | Example | Description
 --- | --- | --- | ---
-`forward` | # of units | `speedy.forward(50)` | Move forward 50 units
-`backward` | # of units to move | `speedy.backward(50)` | Move backward 50 units
-`left` | # degrees to turn | `speedy.left(45)` | Turn left 45 degrees
-`right` | # degrees to turn | `speedy.right(45)` | Turn right 45 degrees
+`forward` 'fd' | # of units | `speedy.forward(50)` | Move forward 50 units
+`backward` 'bk' | # of units to move | `speedy.backward(50)` | Move backward 50 units
+`left` 'lt' | # degrees to turn | `speedy.left(45)` | Turn left 45 degrees
+`right` 'rt' | # degrees to turn | `speedy.right(45)` | Turn right 45 degrees
 `goto` | coordinates of destination | `speedy.goto(25, 50)` | Move to the point (25, 50)
 `speed` | `1...10` | `speedy.speed(5)` | Sets the speed of the turtle's motion to 5. The speed can be 1 through 10, with 1 being the slowest and 10 the fastest. 
 

@@ -39,10 +39,10 @@ Here are common commands for moving a turtle around a screen. While the examples
 
 Command | Value/Parameter | Example | Description
 --- | --- | --- | ---
-`forward` 'fd' | # of units | `speedy.forward(50)` | Move forward 50 units
-`backward` 'bk' | # of units to move | `speedy.backward(50)` | Move backward 50 units
-`left` 'lt' | # degrees to turn | `speedy.left(45)` | Turn left 45 degrees
-`right` 'rt' | # degrees to turn | `speedy.right(45)` | Turn right 45 degrees
+`forward` or `fd` | # of units | `speedy.forward(50)` | Move forward 50 units
+`backward` or `bk` | # of units to move | `speedy.backward(50)` | Move backward 50 units
+`left` or `lt` | # degrees to turn | `speedy.left(45)` | Turn left 45 degrees
+`right` or `rt` | # degrees to turn | `speedy.right(45)` | Turn right 45 degrees
 `goto` | coordinates of destination | `speedy.goto(25, 50)` | Move to the point (25, 50)
 `speed` | `1...10` | `speedy.speed(5)` | Sets the speed of the turtle's motion to 5. The speed can be 1 through 10, with 1 being the slowest and 10 the fastest. 
 
@@ -52,8 +52,8 @@ Here are common commands for controlling how a turtles uses its pen to draw imag
 
 Command | Value/Parameter | Example | Description
 --- | --- | --- | ---
-`up` | (none) | `speedy.up()` | Pick up the turtle's pen, do it doesn't draw a line as the turtle moves
-`down` | (none) | `speedy.down()` | Put down the turtle's pen, so it draws a line as the turtle moves
+`up` or `pu` or `penup` | (none) | `speedy.up()` | Pick up the turtle's pen, do it doesn't draw a line as the turtle moves
+`down` or `pd` or `pendown` | (none) | `speedy.down()` | Put down the turtle's pen, so it draws a line as the turtle moves
 `pencolor` | color name | `speedy.pencolor("blue")` | Use a blue pen. See below for valid colors.
 `fillcolor` | color name | `speedy.fillcolor("red")` | Fill the shape with the color red. See below for valid colors.
 `begin_fill` | (none) | `speedy.begin_fill()` | Marks the current position as the beginning of a shape that is to be filled with the fill color.
